@@ -1,0 +1,45 @@
+name: Build & Deploy Slidev to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: npm
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Compute PUBLIC_BASE for Pages
+        run: |
+          REPO="${{ github.event.repository.name }}"
+          if [[ "$REPO" == *.github.io ]]; then
+            echo "PUBLIC_BASE=/" >> $GITHUB_ENV
+          else
+            echo "PUBLIC_BASE=/$REPO/" >> $GITHUB_ENV
+          fi
+          echo "Using PUBLIC_BASE=$PUBLIC_BASE"
+
+      - name: Build Slidev
+        run: npm run build
+        env:
+          PUBLIC_BASE: ${{ env.PUBLIC_BASE }}
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
