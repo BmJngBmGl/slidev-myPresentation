@@ -11,9 +11,9 @@ Schülerpflichtpraktikum vom 24.09. bis zum 10.10.25
 
 # Was habe ich gelernt?
 - Python
+- KI *richtig* zu nutzen
 - Umgang mit Git und GitHub
 - Umgang mit Slidev
-- KI *richtig* zu nutzen
 
 ---
 
@@ -24,6 +24,7 @@ Schülerpflichtpraktikum vom 24.09. bis zum 10.10.25
 3. Challenge: Tannenbäume zeichen
 
 ---
+
 ## 3. Tannenbäume:
 Besondere Challenge:
   - kein Code vorgegeben
@@ -35,8 +36,37 @@ pat.forward((-leaves_size/2.5)+math.sqrt((leaves_size**2)-(leaves_size/2)**2))
 ```
 
 ---
-# 1. Python
+
 ## Projekte:
-4. 
+4. Passwortgenerator
+    - Passwortsicherheit!
+5. Textbasiertes RPG-Game
+6. ISS-Tracker
+    - auf Basis von API
+    - Unix Timestamp
+7. 4 - Gewinnt
+
+---
+
+## 7. 4 - Gewinnt:
+Besondere Challenge:
+  - kein Codegerüst vorgegeben
+  - kein Ansatz
+Dann später Weiterentwicklung mit Computergegner
+  - Einfache Heuristik
+  - Alpha - Beta Pruning
+mit KI gelöst
+
+---
+
+# 2. Umgang mit KI
+**KI als Helfer**
+Für Ansätze, Ideen oder Feedback
+## **nicht einfach nur Code übernehmen**
+  -> Man lernt nicht
+
+---
+
+
 
 
