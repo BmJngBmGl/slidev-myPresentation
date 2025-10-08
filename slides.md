@@ -20,7 +20,7 @@ Schülerpflichtpraktikum vom 24.09. bis zum 10.10.25
 # 1. Python
 ## Meine Projekte:
 1. Schere, Stein oder Papier
-2. Schneeflocken zeichnen
+2. Schneeflocken zeichnen- KI *richtig* zu nutzen
 3. Challenge: Tannenbäume zeichen
 
 ---
@@ -35,7 +35,9 @@ pat.setheading(180)
 pat.forward((-leaves_size/2.5)+math.sqrt((leaves_size**2)-(leaves_size/2)**2))
 ```
 
+
 ---
+
 
 ## Projekte:
 4. Passwortgenerator
