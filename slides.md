@@ -29,15 +29,8 @@ Schülerpflichtpraktikum vom 24.09. bis zum 10.10.25
 Besondere Challenge:
   - kein Code vorgegeben
   - den Stamm richtig ausrichten:
-  ```python
-import math
-pat.setheading(180)
-pat.forward((-leaves_size/2.5)+math.sqrt((leaves_size**2)-(leaves_size/2)**2))
-```
-
 
 ---
-
 
 ## Projekte:
 4. Passwortgenerator
@@ -69,6 +62,13 @@ Für Ansätze, Ideen oder Feedback
 
 ---
 
+# 3. Umgang mit Git und GitHub
+Befehle:
+  - Git add
+  - Git commit
+  - Git push
+  - Git branch
+  - Git merge
 
 
 
