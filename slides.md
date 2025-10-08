@@ -1,5 +1,6 @@
 ---
 theme: default
+favicon: favicon.svg
 ---
 
 # Setting up Slidev on GitHub Pages 🧭
