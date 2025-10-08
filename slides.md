@@ -127,7 +127,7 @@ theme: seriph
 ---
 ```
 
-Available themes: [https://sli.dev/themes](https://sli.dev/themes)
+Available themes: [https://sli.dev/resources/theme-gallery](https://sli.dev/resources/theme-gallery)
 
 ---
 
