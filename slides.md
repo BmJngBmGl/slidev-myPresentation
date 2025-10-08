@@ -24,9 +24,19 @@ Schülerpflichtpraktikum vom 24.09. bis zum 10.10.25
 3. Challenge: Tannenbäume zeichen
 
 ---
-Tannenbäume:
-
+## 3. Tannenbäume:
+Besondere Challenge:
+  - kein Code vorgegeben
+  - den Stamm richtig ausrichten:
   ```python
+import math
 pat.setheading(180)
 pat.forward((-leaves_size/2.5)+math.sqrt((leaves_size**2)-(leaves_size/2)**2))
-  
+```
+
+---
+# 1. Python
+## Projekte:
+4. 
+
+
