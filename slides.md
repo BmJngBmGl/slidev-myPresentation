@@ -95,7 +95,7 @@ The workflow runs again and your updated slides appear online.
 
 Each slide is separated by `---`.
 
-```markdown
+````markdown
 # Welcome to Slidev 👋
 
 This is your first slide.
@@ -107,17 +107,12 @@ This is your first slide.
 - Use bullet points
 - Add code snippets:
 
-```ts {all|1|2-3}
-export function greet(name: string) {
-  return `Hello, ${name}!`
-}
-```
-```
-
-Other features:
-- Press **P** for presenter mode
-- Press **D** to draw on slides
-- Append `?print` to export to PDF
+  ```ts {all|1|2-3}
+  export function greet(name: string) {
+    return `Hello, ${name}!`
+  }
+  ```
+````
 
 ---
 
