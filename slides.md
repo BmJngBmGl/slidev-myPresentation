@@ -29,12 +29,22 @@ You’ll automatically have all necessary files (`slides.md`, `package.json`, Gi
 Your forked repository contains these files:
 
 ```
-.github/workflows/deploy.yml   # GitHub Action for auto-deploy
-slides.md                      # Your presentation
-package.json                   # Defines build scripts and dependencies
-public/favicon.svg             # Optional favicon
-README.md                      # Repo overview
-.gitignore                     # Ignores build/dependency files
+slidev-template/
+│
+├─ .github/
+│  └─ workflows/
+│     └─ deploy.yml              ← GitHub Action for auto-deploy
+│
+├─ public/
+│  └─ favicon.svg                ← Optional favicon
+│
+├─ slides.md                     ← Your presentation content (editable on GitHub)
+├─ package.json                  ← Defines scripts & dependencies
+├─ package-lock.json             ← Auto-generated dependency lock file
+├─ README.md                     ← Repo overview and usage
+├─ .gitignore                    ← Ignores build/dependency files
+└─ (generated later)
+   └─ dist/                      ← Build output created by GitHub Actions
 ```
 
 Everything happens automatically — you only edit **slides.md**.
