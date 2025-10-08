@@ -1,0 +1,14 @@
+{
+  "name": "slidev-gh-pages",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base ${PUBLIC_BASE:-/}",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "0.48.7",
+    "@slidev/theme-default": "0.25.0"
+  }
+}
