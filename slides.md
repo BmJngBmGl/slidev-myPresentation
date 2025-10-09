@@ -25,7 +25,7 @@ Schülerpflichtpraktikum vom 24.09. bis zum 10.10.25
 
 ---
 
-## 3. Tannenbäume:
+### 3. Tannenbäume:
 Besondere Challenge:
   - kein Code vorgegeben
   - den Stamm richtig ausrichten:
@@ -33,7 +33,7 @@ Besondere Challenge:
 ```python
   import math
   pat.setheading(180)
-  pat.forward((-leaves_size/2.5)+math.sqrt((leaves_size**2)-(leaves_size/2)**2))
+  pat.forward(math.sqrt((leaves_size**2)-(leaves_size/2)**2))
 ```
 
 ---
@@ -49,7 +49,7 @@ Besondere Challenge:
 
 ---
 
-## 7. 4 - Gewinnt:
+### 7. 4 - Gewinnt:
 Besondere Challenge:
   - kein Codegerüst vorgegeben
   - kein Ansatz
@@ -69,12 +69,19 @@ Für Ansätze, Ideen oder Feedback
 ---
 
 # 3. Umgang mit Git und GitHub
-Befehle:
-  - Git add
-  - Git commit
-  - Git push
-  - Git branch
-  - Git merge
+- Repositories erstellen und verwalten
+- Dateien hochladen, ändern und versionieren (Commit, Push, Pull)
+- Branches anlegen und zusammenführen (Merge)
+- Änderungen und Entwicklungsstand nachvollziehen (Historie)
+- Forks von anderen Projekten erstellen
+
+---
+
+# 4. Umgang mit Slidev
+*Kursiv* durch ein *
+**Fett** durch zwei *
+
+
 
 
 
