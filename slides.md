@@ -90,6 +90,13 @@ import math
 pat.setheading(180)
 pat.forward(math.sqr((leaves_size**2)-(leaves_size/2)**2))
 ```
+</style>
+.image-right img {
+  width: 120px;
+  height: auto;
+  float: right;
+  margin-left: 20px;
+}
 
 ---
 
