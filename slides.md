@@ -9,6 +9,15 @@ Schülerpflichtpraktikum vom 24.09. bis zum 10.10.25
 
 ---
 
+# Meine Motivation
+- die Firma genauer kennenlernen
+- Programmierkenntnisse verbessern
+- Englischkenntnisse verbessern
+- Kontakte knüpfen
+- Eigenverantwortung lernen
+
+---
+
 # Was habe ich gelernt?
 - Python
 - KI *richtig* zu nutzen
@@ -20,7 +29,9 @@ Schülerpflichtpraktikum vom 24.09. bis zum 10.10.25
 # 1. Python
 ## Meine Projekte:
 1. Schere, Stein oder Papier
-2. Schneeflocken zeichnen- KI *richtig* zu nutzen
+    - erstes Projekt, zufälliger Computerspieler
+2. Schneeflocken zeichnen
+    - Einführung in turtle
 3. Challenge: Tannenbäume zeichen
 
 ---
@@ -32,6 +43,7 @@ Besondere Challenge:
   
 ```python
   import math
+  import turtle
   pat.setheading(180)
   pat.forward(math.sqrt((leaves_size**2)-(leaves_size/2)**2))
 ```
