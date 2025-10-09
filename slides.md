@@ -2,156 +2,164 @@
 theme: default
 favicon: favicon.svg
 download: true
+transition: slide-left
+
+layout: cover
+background: /background.jpg
 ---
 
-# Setting up Slidev on GitHub Pages 🧭
-
-This tutorial walks you through the full process of setting up **Slidev** presentations that are **built automatically on GitHub Pages** — so you can edit `slides.md` right on GitHub, no local build required.
----
-
-## 🍴 1. Fork This Repository
-
-The easiest way to get started is to **fork this repository**:
-
-1. Click the **Fork** button (top-right corner of this page).
-2. Choose your GitHub account.
-3. Wait a few seconds — a copy of this repo will appear under your account.
-4. That’s it! You’re now ready to customize your own Slidev presentation.
-
-You’ll automatically have all necessary files (`slides.md`, `package.json`, GitHub Actions workflow, etc.) configured for you.
-
-> 🧩 No need to download or upload anything manually — everything runs in the cloud.
+# Meine Zeit bei ATS
+### Schülerpflichtpraktikum vom 24.09. bis zum 10.10.25
 
 ---
 
-## ⚙️ 2. Understand the Folder Structure
+# Meine Motivation
+<v-clicks>
 
-Your forked repository contains these files:
+- die Firma genauer kennenlernen
+- Programmierkenntnisse verbessern
+- Englischkenntnisse verbessern
+- Kontakte knüpfen
+- Eigenverantwortung lernen
 
-```
-slidev-template/
-│
-├─ .github/
-│  └─ workflows/
-│     └─ deploy.yml              ← GitHub Action for auto-deploy
-│
-├─ public/
-│  └─ favicon.svg                ← Optional favicon
-│
-├─ slides.md                     ← Your presentation content (editable on GitHub)
-├─ package.json                  ← Defines scripts & dependencies
-├─ package-lock.json             ← Auto-generated dependency lock file
-├─ README.md                     ← Repo overview and usage
-├─ .gitignore                    ← Ignores build/dependency files
-└─ (generated later)
-   └─ dist/                      ← Build output created by GitHub Actions
-```
-
-Everything happens automatically — you only edit **slides.md**.
+</v-clicks>
 
 ---
 
-## 🚀 3. GitHub Actions – Build & Deploy
+# Was habe ich gelernt?
+<v-clicks>
 
-The workflow file (`.github/workflows/deploy.yml`) does three key things:
+1. Python
+2. KI *richtig* nutzen
+3. Umgang mit Git und GitHub
+4. Umgang mit Slidev
 
-1. Installs dependencies with `npm ci`.
-2. Builds your slides using Slidev (`npm run build`).
-3. Publishes the result to the **`gh-pages`** branch.
-
-Each time you push or edit your slides, GitHub Actions builds and deploys your deck.
-
-> It automatically detects whether your repo is a **user/org site** (`username.github.io`) or **project site** (`username.github.io/repo/`).
+</v-clicks>
 
 ---
-
-## 🛠️ 4. Enable GitHub Pages
-
-Once your first deployment finishes:
-
-1. Go to **Settings → Pages** in your repository.
-2. Set the **Source** to the **`gh-pages`** branch.
-3. Click **Save**.
-
-After a minute or two, your slides are live at:
-- **User/Org Site:** `https://username.github.io/`
-- **Project Site:** `https://username.github.io/repo/`
-
+layout: two-cols-header
 ---
 
-## 🧑‍💻 5. Edit Your Slides
+# 1. Python
+## Meine Projekte:
 
-Simply edit the `slides.md` file directly on GitHub:
+::left::
 
-1. Go to the file → click the **✏️ Edit** icon.
-2. Modify your content (Markdown syntax).
-3. Scroll down → **Commit changes**.
+<v-clicks>
 
-The workflow runs again and your updated slides appear online.
+1. Schere, Stein oder Papier
+    - erstes Projekt, zufälliger Computerspieler
+2. Schneeflocken zeichnen
+    - Einführung in turtle
+3. Challenge: Tannenbäume zeichen
+4. Passwortgenerator
+    - Passwortsicherheit!
 
+</v-clicks>
+
+::right::
+
+<v-clicks>
+
+5. Textbasiertes RPG-Game
+6. ISS-Tracker
+    - auf Basis von API
+    - Unix Timestamp
+7. 4-Gewinnt
+
+</v-clicks>
+
+<style>
+.two-cols-header {
+  column-gap: 20px; /* Adjust the gap size */
+  grid-template-rows: 0.4fr 1fr; /* Adjust the header row height */
+}
+</style>
 ---
 
-## 🪄 6. Markdown Basics for Slidev
+## 1.3. Tannenbäume:
+Besondere Challenge:
+  - kein Code vorgegeben
+  - den Stamm richtig ausrichten:
 
-Each slide is separated by `---`.
-
-````markdown
-# Welcome to Slidev 👋
-
-This is your first slide.
-
----
-
-## Next Slide
-
-- Use bullet points
-- Add code snippets:
-
-  ```ts {all|1|2-3}
-  export function greet(name: string) {
-    return `Hello, ${name}!`
-  }
-  ```
-````
-
----
-
-## 🧱 7. Customize the Theme
-
-Slidev uses themes from NPM packages (like `@slidev/theme-default`).
-You can switch themes in the frontmatter of `slides.md`:
-
-```yaml
----
-theme: seriph
----
+```python {1|2|3}
+import math
+pat.setheading(180)
+pat.forward((-leaves_size/2.5)+math.sqr((leaves_size**2)-(leaves_size/2)**2))
 ```
 
-Available themes: [https://sli.dev/resources/theme-gallery](https://sli.dev/resources/theme-gallery)
+---
+
+## 1.7. 4-Gewinnt:
+Besondere Challenge:
+  - kein Codegerüst vorgegeben
+  - kein Ansatz
+Dann später Weiterentwicklung mit Computergegner
+  - Einfache Heuristik
+  - Alpha - Beta Pruning
+
+mit KI gelöst
 
 ---
 
-## 🌍 8. Custom Domain (Optional)
+# 2. KI *richtig* nutzen
+**KI als Helfer**
 
-To use a custom domain:
-1. Add a file named `CNAME` in your `public/` folder.
-2. Inside, put your domain name, e.g. `slides.example.com`.
-
-GitHub Pages will handle it automatically.
-
----
-
-## 🧪 9. Troubleshooting
-
-If your deck doesn’t load correctly:
-- Check that GitHub Pages is set to **`gh-pages`** branch.
-- Wait 1–2 minutes after a commit for deployment.
-- Check the **Actions** tab for logs.
+Für Ansätze, Ideen oder Feedback
+## **nicht einfach nur Code übernehmen**
+  -> Man lernt nicht
 
 ---
 
-## ✅ 10. Done!
+## **ChatGPT ist gut in Python**
+denn
+- gutes Codeverständnis
+- optimieren/verkürzen
+- sinnvolle Ansätze
+- bietet neue Sichtweise
+- **macht aber manchmal Fehler**
 
-You now have a fully working **Slidev** presentation running on **GitHub Pages** — automatically built and deployed from your Markdown file.
+---
 
-🎉 **Now edit `slides.md` to create your first deck and publish it instantly!**
+# 3. Umgang mit Git und GitHub
+- Repositories erstellen und verwalten
+- Dateien hochladen, ändern und versionieren (Commit, Push, Pull)
+- Branches anlegen und zusammenführen (Merge)
+- Änderungen und Entwicklungsstand nachvollziehen (Historie)
+- Forks von anderen Projekten erstellen
+
+---
+
+# 4. Umgang mit Slidev
+- *Kursiv*: `*` 
+
+- **Fett**: zwei `*` 
+
+- Seiten teilen: drei `-` 
+
+- #### Überschriften: `#`
+
+- `Code:` `
+
+---
+
+# Fazit
+- Schöne Erfahrung
+- nette Kollegen
+- entspannte Atmosphäre
+- viel gelernt
+- insgesamt bestes Praktikum
+
+---
+
+# Feedback
+Macht weiter so  
+Gerne auch größere Projekte  
+oder Anwendungsorientiert  
+**Einführung in Git ist wichtig!**
+
+
+
+
+
+
