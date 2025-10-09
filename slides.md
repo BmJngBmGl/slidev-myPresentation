@@ -114,7 +114,7 @@ Besondere Challenge:
 
     - Einarbeiten und verstehen vom Code  
     - Reset nach dem Tod  
-    - Lokale und globale Variablen  </v-clicks>
+    - Lokale und globale Variablen  
     - Neue Funktionen implementieren  
 
 </v-clicks>
@@ -127,7 +127,7 @@ Besondere Challenge:
 
   - kein Codegerüst vorgegeben
   - kein Ansatz  
-Dann später Weiterentwicklung mit Computergegner
+  - Dann später Weiterentwicklung mit Computergegner
   - Einfache Heuristik
   - Alpha - Beta Pruning  
 mit KI gelöst
@@ -137,34 +137,49 @@ mit KI gelöst
 ---
 
 # 2. KI *richtig* nutzen
+<v-clicks>
+
 **KI als Helfer**
 
 Für Ansätze, Ideen oder Feedback
 ## **nicht einfach nur Code übernehmen**
   -> Man lernt nicht
 
+</v-clicks>
+
 ---
 
 ## **ChatGPT ist gut in Python**
 denn
+<v-clicks>
+
 - gutes Codeverständnis
 - optimieren/verkürzen
 - sinnvolle Ansätze
 - bietet neue Sichtweise
 - **macht aber manchmal Fehler**
 
+</v-clicks>
+
 ---
 
 # 3. Umgang mit Git und GitHub
+<v-clicks>
+    
 - Repositories erstellen und verwalten
 - Dateien hochladen, ändern und versionieren (Commit, Push, Pull)
 - Branches anlegen und zusammenführen (Merge)
 - Änderungen und Entwicklungsstand nachvollziehen (Historie)
 - Forks von anderen Projekten erstellen
+- Über Pull-Requests anderen Code implementieren
+
+</v-clicks>
 
 ---
 
 # 4. Umgang mit Slidev
+<v-clicks>
+
 - *Kursiv*: `*` 
 
 - **Fett**: zwei `*` 
@@ -175,22 +190,36 @@ denn
 
 - `Code:` `
 
+</v-clicks>
+
 ---
 
 # Fazit
+<v-clicks>
+
 - Schöne Erfahrung
 - nette Kollegen
 - entspannte Atmosphäre
 - viel gelernt
 - insgesamt bestes Praktikum
 
+</v-clicks>
+
 ---
 
 # Feedback
+<v-clicks>
+
 Macht weiter so  
 Gerne auch größere Projekte  
 oder Anwendungsorientiert  
 **Einführung in Git ist wichtig!**
+
+</v-clicks>
+
+---
+# Danke für ihre Aufmerksamkeit
+## Noch Fragen?
 
 
 
