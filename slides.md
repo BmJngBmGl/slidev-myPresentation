@@ -76,6 +76,9 @@ layout: two-cols-header
 }
 </style>
 ---
+layout: image-right
+image: /pic_presentation_tree
+---
 
 ## 1.3. Tannenbäume:
 Besondere Challenge:
@@ -85,19 +88,27 @@ Besondere Challenge:
 ```python {1|2|3}
 import math
 pat.setheading(180)
-pat.forward((-leaves_size/2.5)+math.sqr((leaves_size**2)-(leaves_size/2)**2))
+pat.forward(math.sqr((leaves_size**2)-(leaves_size/2)**2))
 ```
+
+---
+
+## 1.5. RPG-Game:
+Besondere Challenge:
+    - Einarbeiten und verstehen vom Code
+    - Reset nach dem Tod
+    - Lokale und globale Variablen 
+    - Neue Funktionen implementieren
 
 ---
 
 ## 1.7. 4-Gewinnt:
 Besondere Challenge:
   - kein Codegerüst vorgegeben
-  - kein Ansatz
+  - kein Ansatz  
 Dann später Weiterentwicklung mit Computergegner
   - Einfache Heuristik
-  - Alpha - Beta Pruning
-
+  - Alpha - Beta Pruning  
 mit KI gelöst
 
 ---
