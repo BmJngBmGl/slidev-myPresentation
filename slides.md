@@ -110,21 +110,29 @@ pat.forward(math.sqr((leaves_size**2)-(leaves_size/2)**2))
 
 ## 1.5. RPG-Game:
 Besondere Challenge:
-    - Einarbeiten und verstehen vom Code
-    - Reset nach dem Tod
-    - Lokale und globale Variablen 
-    - Neue Funktionen implementieren
+<v-clicks>
+
+    - Einarbeiten und verstehen vom Code  
+    - Reset nach dem Tod  
+    - Lokale und globale Variablen  </v-clicks>
+    - Neue Funktionen implementieren  
+
+</v-clicks>
 
 ---
 
 ## 1.7. 4-Gewinnt:
 Besondere Challenge:
+<v-clicks>
+
   - kein Codegerüst vorgegeben
   - kein Ansatz  
 Dann später Weiterentwicklung mit Computergegner
   - Einfache Heuristik
   - Alpha - Beta Pruning  
 mit KI gelöst
+
+</v-clicks>
 
 ---
 
