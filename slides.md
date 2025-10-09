@@ -75,12 +75,15 @@ layout: two-cols-header
   grid-template-rows: 0.4fr 1fr; /* Adjust the header row height */
 }
 </style>
+
 ---
-layout: image-right
-image: /pic_presentation_tree.png
+layout: two-cols-header
 ---
 
 ## 1.3. Tannenbäume:
+
+::left::
+
 Besondere Challenge:
   - kein Code vorgegeben
   - den Stamm richtig ausrichten:
@@ -90,13 +93,18 @@ import math
 pat.setheading(180)
 pat.forward(math.sqr((leaves_size**2)-(leaves_size/2)**2))
 ```
-</style>
-.image-right img {
-  width: 120px;
-  height: auto;
-  float: right;
-  margin-left: 20px;
+
+::right::
+
+![Tannenbaum](/pic_presentation_tree.png)
+
+<style>
+.two-cols-header {
+  column-gap: 40px; /* Adjust the gap size */
+  grid-template-rows: 0.2fr 1fr; /* Adjust the header row height */
+  grid-template-columns: 1fr 0.5fr /* Adjust the image column width */
 }
+</style>
 
 ---
 
