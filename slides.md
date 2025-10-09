@@ -68,6 +68,7 @@ Besondere Challenge:
 Dann später Weiterentwicklung mit Computergegner
   - Einfache Heuristik
   - Alpha - Beta Pruning
+
 mit KI gelöst
 
 ---
@@ -83,10 +84,10 @@ Für Ansätze, Ideen oder Feedback
 
 ## **ChatGPT ist gut in Python**
 denn
-- versteht Code gut
-- kann oft noch verkürzen/optimieren
-- hat sinnvolle Ansätze
-- bietet eine neue Sichtweise
+- gutes Codeverständnis
+- optimieren/verkürzen
+- sinnvolle Ansätze
+- bietet neue Sichtweise
 - **macht aber manchmal Fehler**
 
 ---
@@ -101,8 +102,10 @@ denn
 ---
 
 # 4. Umgang mit Slidev
-*Kursiv* durch ein *
-**Fett** durch zwei *
+*Kursiv* durch ein * 
+**Fett** durch zwei * 
+Seiten teilen durch drei - 
+# Überschriften durch #
 
 
 
