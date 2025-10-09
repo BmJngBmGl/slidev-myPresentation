@@ -1,4 +1,4 @@
-import{d as _,$ as u,y as f,f as i,o as r,g as e,t as a,F as h,Z as g,i as v,e as x,a0 as y}from"../modules/vue-CJXDXfFZ.js";import{u as b,h as N,c as m,b as k}from"../index-Cm9BQQj0.js";import{N as w}from"./NoteDisplay-CQWmg6fD.js";import"../modules/shiki-B9SYNmQQ.js";const S=_({__name:"print",setup(p,{expose:n}){n();const{slides:l,total:o}=b();u(`
+import{d as _,$ as u,y as f,f as i,o as r,g as e,t as a,F as h,Z as g,i as v,e as x,a0 as y}from"../modules/vue-CJXDXfFZ.js";import{u as b,h as N,c as m,b as k}from"../index-BzqjUB6t.js";import{N as w}from"./NoteDisplay-t_Uj9b_Z.js";import"../modules/shiki-B9SYNmQQ.js";const S=_({__name:"print",setup(p,{expose:n}){n();const{slides:l,total:o}=b();u(`
 @page {
   size: A4;
   margin-top: 1.5cm;
