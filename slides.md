@@ -112,6 +112,22 @@ denn
 
 - `Code:` `
 
+---
+
+# Fazit
+- Schöne Erfahrung
+- nette Kollegen
+- entspannte Atmosphäre
+- viel gelernt
+- insgesamt bestes Praktikum
+
+---
+
+# Feedback
+Macht weiter so
+Gerne auch größere Projekte
+**Einführung in Git ist wichtig!**
+
 
 
 
