@@ -74,9 +74,20 @@ mit KI gelöst
 
 # 2. Umgang mit KI
 **KI als Helfer**
+
 Für Ansätze, Ideen oder Feedback
 ## **nicht einfach nur Code übernehmen**
   -> Man lernt nicht
+
+---
+
+## **ChatGPT ist gut in Python**
+denn
+- versteht Code gut
+- kann oft noch verkürzen/optimieren
+- hat sinnvolle Ansätze
+- bietet eine neue Sichtweise
+- **macht aber manchmal Fehler**
 
 ---
 
