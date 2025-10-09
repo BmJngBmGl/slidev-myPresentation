@@ -77,7 +77,7 @@ layout: two-cols-header
 </style>
 ---
 layout: image-right
-image: /pic_presentation_tree
+image: /pic_presentation_tree.png
 ---
 
 ## 1.3. Tannenbäume:
