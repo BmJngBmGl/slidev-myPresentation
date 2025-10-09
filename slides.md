@@ -102,10 +102,13 @@ denn
 ---
 
 # 4. Umgang mit Slidev
-*Kursiv* durch ein * 
-**Fett** durch zwei * 
-Seiten teilen durch drei - 
-# Überschriften durch #
+*Kursiv* durch ein `*` 
+
+**Fett** durch zwei `*` 
+
+Seiten teilen durch drei `-` 
+
+#### Überschriften durch `#`
 
 
 
