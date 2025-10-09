@@ -112,10 +112,10 @@ pat.forward(math.sqr((leaves_size**2)-(leaves_size/2)**2))
 Besondere Challenge:
 <v-clicks>
 
-    - Einarbeiten und verstehen vom Code  
-    - Reset nach dem Tod  
-    - Lokale und globale Variablen  
-    - Neue Funktionen implementieren  
+  - Einarbeiten und verstehen vom Code  
+  - Reset nach dem Tod  
+  - Lokale und globale Variablen  
+  - Neue Funktionen implementieren  
 
 </v-clicks>
 
@@ -210,14 +210,16 @@ denn
 # Feedback
 <v-clicks>
 
-Macht weiter so  
-Gerne auch größere Projekte  
-oder Anwendungsorientiert  
-**Einführung in Git ist wichtig!**
+  ### Macht weiter so  
+  Gerne auch größere Projekte  
+  oder Anwendungsorientiert  
+  
+  **Einführung in Git ist wichtig!**
 
 </v-clicks>
 
 ---
+
 # Danke für ihre Aufmerksamkeit
 ## Noch Fragen?
 
