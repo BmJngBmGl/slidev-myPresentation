@@ -2,66 +2,95 @@
 theme: default
 favicon: favicon.svg
 download: true
+transition: slide-left
+
+layout: cover
+background: /background.jpg
 ---
 
 # Meine Zeit bei ATS
-Schülerpflichtpraktikum vom 24.09. bis zum 10.10.25
+### Schülerpflichtpraktikum vom 24.09. bis zum 10.10.25
 
 ---
 
 # Meine Motivation
+<v-clicks>
+
 - die Firma genauer kennenlernen
 - Programmierkenntnisse verbessern
 - Englischkenntnisse verbessern
 - Kontakte knüpfen
 - Eigenverantwortung lernen
 
+</v-clicks>
+
 ---
 
 # Was habe ich gelernt?
-- Python
-- KI *richtig* zu nutzen
-- Umgang mit Git und GitHub
-- Umgang mit Slidev
+<v-clicks>
 
+1. Python
+2. KI *richtig* nutzen
+3. Umgang mit Git und GitHub
+4. Umgang mit Slidev
+
+</v-clicks>
+
+---
+layout: two-cols-header
 ---
 
 # 1. Python
 ## Meine Projekte:
+
+::left::
+
+<v-clicks>
+
 1. Schere, Stein oder Papier
     - erstes Projekt, zufälliger Computerspieler
 2. Schneeflocken zeichnen
     - Einführung in turtle
 3. Challenge: Tannenbäume zeichen
-
----
-
-### 3. Tannenbäume:
-Besondere Challenge:
-  - kein Code vorgegeben
-  - den Stamm richtig ausrichten:
-  
-```python
-  import math
-  import turtle
-  pat.setheading(180)
-  pat.forward(math.sqrt((leaves_size**2)-(leaves_size/2)**2))
-```
-
----
-
-## Projekte:
 4. Passwortgenerator
     - Passwortsicherheit!
+
+</v-clicks>
+
+::right::
+
+<v-clicks>
+
 5. Textbasiertes RPG-Game
 6. ISS-Tracker
     - auf Basis von API
     - Unix Timestamp
-7. 4 - Gewinnt
+7. 4-Gewinnt
+
+</v-clicks>
+
+<style>
+.two-cols-header {
+  column-gap: 20px; /* Adjust the gap size */
+  grid-template-rows: 0.4fr 1fr; /* Adjust the header row height */
+}
+</style>
+---
+
+## 1.3. Tannenbäume:
+Besondere Challenge:
+  - kein Code vorgegeben
+  - den Stamm richtig ausrichten:
+
+```python {1|2|3}
+import math
+pat.setheading(180)
+pat.forward((-leaves_size/2.5)+math.sqr((leaves_size**2)-(leaves_size/2)**2))
+```
 
 ---
 
-### 7. 4 - Gewinnt:
+## 1.7. 4-Gewinnt:
 Besondere Challenge:
   - kein Codegerüst vorgegeben
   - kein Ansatz
@@ -73,7 +102,7 @@ mit KI gelöst
 
 ---
 
-# 2. Umgang mit KI
+# 2. KI *richtig* nutzen
 **KI als Helfer**
 
 Für Ansätze, Ideen oder Feedback
@@ -124,9 +153,9 @@ denn
 ---
 
 # Feedback
-Macht weiter so
-Gerne auch größere Projekte
-oder Anwendungsorientiert
+Macht weiter so  
+Gerne auch größere Projekte  
+oder Anwendungsorientiert  
 **Einführung in Git ist wichtig!**
 
 
