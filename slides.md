@@ -197,7 +197,7 @@ denn
 # Fazit
 <v-clicks>
 
-- Schöne Erfahrung
+- Interessante Erfahrung
 - nette Kollegen
 - entspannte Atmosphäre
 - viel gelernt
